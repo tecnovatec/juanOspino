@@ -1,0 +1,164 @@
+h1
+{
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    font-size:25px;
+
+}
+
+.mySlides {
+    display: none;
+    float: left;
+
+}
+
+.header
+{
+    padding: 10px 16px;
+   /* background:  hsl(0, 0%, 95%);*/
+   background:  hsl(0, 0%, 93%);
+    
+    color: #555;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+} 
+
+/* Page content */
+/*.content {
+    padding: 16px;
+  }*
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+ .sticky {
+    position: fixed;
+    top: 140px;
+    width: 100%;
+ 
+    
+  }
+
+
+  
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+ /* .sticky + .content {
+    padding-top: 102px;
+  }*/
+
+/*
+
+header
+{
+   padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+
+}
+ 
+*/
+
+.main
+{
+    background: #f2f2f2;
+    color: #fff;
+}
+.color1
+{
+    background: #34495e;
+    color: #fff;
+}
+aside
+{
+    background: #c0392b;
+    color: #fff;
+}
+
+body
+{
+    background:#FAF9F9;
+}
+
+
+ .sticky {
+    position: fixed;
+    top: 100px;
+    width: 100%;
+ 
+    
+  }
+
+
+.sticky-container{
+    padding:3px;
+    margin:0px;
+    position:fixed;
+    right:-170px;
+    top:1230px;
+    width:210px;
+    z-index: 1100;
+
+   
+  
+}
+.sticky li{
+    list-style-type:none;
+    background-color:#fff;
+    color:#efefef;
+    height:43px;
+    padding:0px;
+    margin:0px 0px 1px 0px;
+    -webkit-transition:all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out;
+    -o-transition:all 0.25s ease-in-out;
+    transition:all 0.25s ease-in-out;
+    cursor:pointer;
+    border-radius: 10px;
+
+}
+.sticky li:hover{
+    margin-left:-115px;
+}
+.sticky li img{
+    float:left;
+    margin:5px 4px;
+    margin-right:5px;
+}
+.sticky li p{
+    padding-top:5px;
+    margin:0px;
+    line-height:16px;
+    font-size:11px;
+    
+}
+.sticky li p a{
+    text-decoration:none;
+    color:#2C3539;
+}
+.sticky li p a:hover{
+    text-decoration:underline;
+}
+
+
+
+.ir-arriba {
+
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+    right:25px;
+    z-index: 2000;
+
+       
+
+        
+        
+}
+
+
